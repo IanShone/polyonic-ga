@@ -1,0 +1,14 @@
+{
+  "name": "@ianshone/polyonic-ga",
+  "version": "1.0.0",
+  "description": "All-in-One Google Analytics support for your awesome Polyonic app",
+  "license": "MIT",
+  "repository": "ianshone/polyonic-ga",
+  "main": "index.js",
+  "keywords": [
+    "polyonic",
+    "google",
+    "analytics",
+    "ianshone"
+  ]
+}
