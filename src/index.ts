@@ -18,10 +18,10 @@ export class Analytics {
 
     let script2 = document.createElement('script')
     script2.type = 'text/javascript'
-    script2.innerHTML = "window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }gtag('js', new Date()); gtag('config', 'G - 8YDB3KTM4S'); "
+    script2.innerHTML = `window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }gtag('js', new Date()); gtag('config', ${GA_Measurement_ID});  gtag('event', 'page_view', { 'send_to': GA_Measurement_ID }) `
     head.appendChild(script2)
 
-    ga('send', 'event', 'Startup')
+    // ga('send', 'event', 'Startup')
 
     console.log('Report sent')
 
