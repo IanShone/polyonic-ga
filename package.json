@@ -4,7 +4,8 @@
   "description": "All-in-One Google Analytics support for your awesome Polyonic app",
   "license": "MIT",
   "repository": "ianshone/polyonic-google-analytics",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "keywords": [
     "polyonic",
     "google",
@@ -12,7 +13,8 @@
     "ianshone"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "files": [
     "lib/**/*"
