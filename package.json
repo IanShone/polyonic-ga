@@ -19,6 +19,7 @@
     "lib/**/*"
   ],
   "devDependencies": {
+    "@types/google.analytics": "0.0.41",
     "@types/node": "^15.6.1",
     "typescript": "^4.3.2"
   }
