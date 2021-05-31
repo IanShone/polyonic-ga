@@ -1,4 +1,4 @@
-class Analytics {
+export class Analytics {
   Greeter(name: string) { `Hello ${name}` }
 }
 
