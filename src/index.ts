@@ -1,3 +1,5 @@
-const Greeter = (name: string) => `Hello ${name}`
+class Analytics {
+  Greeter(name: string) { `Hello ${name}` }
+}
 
-module.exports = { Greeter }
+module.exports = { Analytics }
